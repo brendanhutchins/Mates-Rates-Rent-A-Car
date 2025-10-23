@@ -30,7 +30,7 @@ If the user wishes to use files stored elsewhere they should be specified as com
 
 Each data file must include ONLY ONE starting header line. If the data file has more than one header line, the program will crash. If the data file does not have a header line, the list created from the data folder will be missing an entire line of data.
 
-Note that you will need to replace the dummy paths with paths to the files you wish to use in the program (relative or absolute). Once you have done this, you man run the program as described before. Make sure that the ordering on the supplied files is the exact same as the files above. 
+Note that you will need to replace the dummy paths with paths to the files you wish to use in the program (relative or absolute). Once you have done this, you may run the program as described before. Make sure that the ordering on the supplied files is the exact same as the files above. 
 
 You do not need to supply every file location, but you must supply them sequentially. For example, if you wanted to supply a fleet file, you must also supply a customer file.
 
