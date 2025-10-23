@@ -1,10 +1,4 @@
----
-title: "Mates-Rates Rent-a-Car (MRRC) User Manual"
-author: Brendan Hutchins (n10684085)
-date: May 4, 2020
-geometry: margin=1in
-output: pdf_document
----
+# Mates Rates Rent A Car Project
 
 This program has many functionalities, and will allow the operator to do a number of processes to manage a vehicle rental management system. It is important to follow the instructions detailed in the manual carefully so that the program behaves as expected.
 
