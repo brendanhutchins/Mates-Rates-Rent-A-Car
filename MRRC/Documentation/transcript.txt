@@ -1,0 +1,1380 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200604070032
+Username: DESKTOP-TP7BF17\brend
+RunAs User: DESKTOP-TP7BF17\brend
+Configuration Name: 
+Machine: DESKTOP-TP7BF17 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 28144
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\brend\source\repos\MRRC\MRRC\bin\Debug> ./MRRC
+
+### Mates-Rates Rent-a-Car Operation Menu ###
+
+You may press the ESC key at any time to exit. Press the BACKSPACE key to return to the previous menu.
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>3
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>1
+
+-------------------
+│Registration │ID │
+-------------------
+│602VVZ       │0  │
+│677UIA       │6  │
+│471XBI       │2  │
+│851VOJ       │3  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>1
+
+Please enter a number from the options below:
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+>4
+
+Please enter a customer ID to delete.
+If You wish to go back to the previous menu, enter -1 into the field.
+
+ID*: 0
+
+0│Ms│Elizabeth│Franklin│Female│26/09/1995
+Are you sure you wish to delete this customer? (y/n): y
+
+Customer selected is currently renting a vehicle. Please return vehicle before deleting customer.
+Returning to CRM Menu. Press Enter to Continue.
+
+
+
+Please enter a number from the options below:
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+>
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>3
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>1
+
+-------------------
+│Registration │ID │
+-------------------
+│602VVZ       │0  │
+│677UIA       │6  │
+│471XBI       │2  │
+│851VOJ       │3  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>1
+
+Please enter a number from the options below:
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+>1
+
+--------------------------------------------------------
+│ID │Title │FirstName │LastName    │Gender │DOB        │
+--------------------------------------------------------
+│0  │Ms    │Elizabeth │Franklin    │Female │26/09/1995 │
+│1  │Miss  │Finley    │Sartini     │Male   │25/04/1965 │
+│2  │Mr    │Miron     │Descoteaux  │Male   │04/06/1983 │
+│3  │Mx    │Tekla     │Muhammad    │Other  │17/12/1989 │
+│4  │Mrs   │Valentina │Waters      │Female │27/04/1979 │
+│5  │Mr    │Azarel    │Kristiansen │Male   │01/06/1976 │
+│6  │Lord  │Herman    │Dirksen     │Male   │22/05/1959 │
+│7  │Mrs   │Emel      │Gabor       │Female │31/03/1976 │
+│8  │Lady  │Kalpana   │Rothenberg  │Female │06/02/1966 │
+│9  │Dr    │Amos      │Allaway     │Male   │10/09/1957 │
+
+
+Please enter a number from the options below:
+
+1) Display Customers
+2) New Customer
+3) Modify Customer
+4) Delete Customer
+
+>
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>2
+
+Please enter a number from the options below:
+
+1) Display Fleet
+2) New Vehicle
+3) Modify Vehicle
+4) Delete Vehicle
+
+>4
+
+Please enter a vehicle registration to delete.
+If You wish to go back to the previous menu, enter -1 into the field.
+
+Registration*: 851voj
+
+851VOJ│Economy│Pontiac│Fiero 2M4│1985│2│Manual│Petrol│-│-│37.1│Black
+Are you sure you wish to delete this vehicle? (y/n): y
+
+Vehicle selected is currently rented. Please return vehicle before deleting vehicle.
+Returning to Fleet Menu. Press Enter to Continue.
+
+
+
+Please enter a number from the options below:
+
+1) Display Fleet
+2) New Vehicle
+3) Modify Vehicle
+4) Delete Vehicle
+
+>1
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│851VOJ       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │37.1      │Black  │
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│602VVZ       │Economy    │Pontiac    │Fiero 2M4    │1987 │2        │Manual       │Petrol │-   │-       │37.9      │Red    │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│471XBI       │Luxury     │Chevrolet  │Tahoe        │1996 │8        │Automatic    │Petrol │GPS │sunroof │38        │Black  │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│677UIA       │Economy    │Audi       │S4           │2004 │5        │Manual       │Petrol │-   │-       │43.3      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+
+Please enter a number from the options below:
+
+1) Display Fleet
+2) New Vehicle
+3) Modify Vehicle
+4) Delete Vehicle
+
+>
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>3
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>1
+
+-------------------
+│Registration │ID │
+-------------------
+│602VVZ       │0  │
+│677UIA       │6  │
+│471XBI       │2  │
+│851VOJ       │3  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>3
+
+Please enter a vehicle registration to rent.
+Afterward, enter a customer who will be renting that vehicle.
+If You wish to go back to the previous menu, enter -1 into the field.
+
+Registration*: 169fbe
+ID*: 0
+Customer 0 already renting a vehicle!
+ID*: 2
+Customer 2 already renting a vehicle!
+ID*: 4
+
+Enter amount of days vehicle will be rented for: Amount of Days Vehicle is Rented*: 6
+Vehicle 169FBE successfully rented to customer 4.
+Total cost for rental is: $292.80
+Press Enter to continue.
+
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>3
+
+Please enter a vehicle registration to rent.
+Afterward, enter a customer who will be renting that vehicle.
+If You wish to go back to the previous menu, enter -1 into the field.
+
+Registration*: 851voj
+Vehicle already rented to customer 3, please try again!
+Registration*: -1
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>4
+
+Please enter a vehicle registration to return.
+If You wish to go back to the previous menu, enter -1 into the field.
+
+Registration*: 321abe
+Vehicle provided not currently rented, please try again!
+Registration*: 169fbe
+Are you sure you wish to return vehicle 169FBE from customer 4? y/n: y
+Vehicle sucessfully returned from customer 4
+Press enter to continue.
+
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>1
+
+-------------------
+│Registration │ID │
+-------------------
+│602VVZ       │0  │
+│677UIA       │6  │
+│471XBI       │2  │
+│851VOJ       │3  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back:
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+
+
+Postfix Expression...
+
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: red
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+RED
+
+Postfix Expression...
+RED
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: family
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+FAMILY
+
+Postfix Expression...
+FAMILY
+
+Search result:
+
+--------------------------------------------------------------------------------------------------------------
+│Registration │Grade  │Make  │Model   │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+--------------------------------------------------------------------------------------------------------------
+│519YUY       │Family │Dodge │Durango │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│321ABE       │Family │Honda │Civic   │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: 7-seater
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+7-SEATER
+
+Postfix Expression...
+7-SEATER
+
+Search result:
+
+------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make  │Model   │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+------------------------------------------------------------------------------------------------------------------
+│519YUY       │Family     │Dodge │Durango │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda │Odyssey │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: family or luxury
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+FAMILY OR LUXURY
+
+Postfix Expression...
+FAMILY LUXURY OR
+
+Search result:
+
+-------------------------------------------------------------------------------------------------------------------
+│Registration │Grade  │Make     │Model     │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+-------------------------------------------------------------------------------------------------------------------
+│123ABE       │Luxury │Acura    │3.5 tl    │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│425UIO       │Luxury │Pontiac  │Fiero 2m4 │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury │Mercedes │34-atl    │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│519YUY       │Family │Dodge    │Durango   │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│321ABE       │Family │Honda    │Civic     │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: GPS or family
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+GPS OR FAMILY
+
+Postfix Expression...
+GPS FAMILY OR
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make    │Model     │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------
+│519YUY       │Family     │Dodge   │Durango   │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│321ABE       │Family     │Honda   │Civic     │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│509XRK       │Commercial │Dodge   │Dakota    │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│123ABE       │Luxury     │Acura   │3.5 tl    │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│425UIO       │Luxury     │Pontiac │Fiero 2m4 │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: family and luxury
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+FAMILY AND LUXURY
+
+Postfix Expression...
+FAMILY LUXURY AND
+
+Search result:
+No unrented vehicles that match query were found!
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: red and blue
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+RED AND BLUE
+
+Postfix Expression...
+RED BLUE AND
+
+Search result:
+No unrented vehicles that match query were found!
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: GPS and family
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+GPS AND FAMILY
+
+Postfix Expression...
+GPS FAMILY AND
+
+Search result:
+
+--------------------------------------------------------------------------------------------------------------
+│Registration │Grade  │Make  │Model   │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+--------------------------------------------------------------------------------------------------------------
+│519YUY       │Family │Dodge │Durango │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>f
+You did not enter a correct option.
+
+Please try again.
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>a
+You did not enter a correct option.
+
+Please try again.
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>m
+You did not enter a correct option.
+
+Please try again.
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: family or luxury or red
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+FAMILY OR LUXURY OR RED
+
+Postfix Expression...
+FAMILY LUXURY OR RED OR
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: red or blue or green
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+RED OR BLUE OR GREEN
+
+Postfix Expression...
+RED BLUE OR GREEN OR
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: GPS OR Family OR Luxury OR 4-Seater
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+GPS OR FAMILY OR LUXURY OR 4-SEATER
+
+Postfix Expression...
+GPS FAMILY OR LUXURY OR 4-SEATER OR
+
+Search result:
+
+-----------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make     │Model     │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+-----------------------------------------------------------------------------------------------------------------------
+│509XRK       │Commercial │Dodge    │Dakota    │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│123ABE       │Luxury     │Acura    │3.5 tl    │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda    │Civic     │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac  │Fiero 2m4 │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes │34-atl    │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│519YUY       │Family     │Dodge    │Durango   │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: luxury and red
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+LUXURY AND RED
+
+Postfix Expression...
+LUXURY RED AND
+
+Search result:
+No unrented vehicles that match query were found!
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: luxury and black
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+LUXURY AND BLACK
+
+Postfix Expression...
+LUXURY BLACK AND
+
+Search result:
+
+------------------------------------------------------------------------------------------------------------------
+│Registration │Grade  │Make    │Model     │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+------------------------------------------------------------------------------------------------------------------
+│123ABE       │Luxury │Acura   │3.5 tl    │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│425UIO       │Luxury │Pontiac │Fiero 2m4 │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: 4-seater and family and gps
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+4-SEATER AND FAMILY AND GPS
+
+Postfix Expression...
+4-SEATER FAMILY AND GPS AND
+
+Search result:
+No unrented vehicles that match query were found!
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: 7-seater and family and gps
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+7-SEATER AND FAMILY AND GPS
+
+Postfix Expression...
+7-SEATER FAMILY AND GPS AND
+
+Search result:
+
+--------------------------------------------------------------------------------------------------------------
+│Registration │Grade  │Make  │Model   │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+--------------------------------------------------------------------------------------------------------------
+│519YUY       │Family │Dodge │Durango │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: economy or family and black
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+ECONOMY OR FAMILY AND BLACK
+
+Postfix Expression...
+ECONOMY FAMILY BLACK AND OR
+
+Search result:
+
+-------------------------------------------------------------------------------------------------------------------
+│Registration │Grade   │Make    │Model     │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+-------------------------------------------------------------------------------------------------------------------
+│321ABE       │Family  │Honda   │Civic     │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│169FBE       │Economy │Pontiac │Fiero 2M4 │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>r
+You did not enter a correct option.
+
+Please try again.
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>e
+You did not enter a correct option.
+
+Please try again.
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: red or green or blue and black
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+RED OR GREEN OR BLUE AND BLACK
+
+Postfix Expression...
+RED GREEN OR BLUE BLACK AND OR
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: (GPS OR Sunroof) AND (Red OR Green)
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+( GPS OR SUNROOF ) AND ( RED OR GREEN )
+
+Postfix Expression...
+GPS SUNROOF OR RED GREEN OR AND
+
+Search result:
+
+---------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make     │Model   │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+---------------------------------------------------------------------------------------------------------------------
+│642JAE       │Luxury     │Mercedes │34-atl  │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│123ABD       │Commercial │Honda    │Odyssey │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: "3000 GT VR-4"
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+3000GTVR-4
+
+Postfix Expression...
+3000GTVR-4
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: ((GPS AND Sunroof) OR (Red OR Green)) AND Commercial OR Luxury
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+( ( GPS AND SUNROOF ) OR ( RED OR GREEN ) ) AND COMMERCIAL OR LUXURY
+
+Postfix Expression...
+GPS SUNROOF AND RED GREEN OR OR COMMERCIAL AND LUXURY OR
+
+Search result:
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: "3000 GT vr-4""
+Error: Mismatched quotation marks in query.
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>2
+
+Enter search query here, enter -1 to go back: (GPS OR Sunroof) AND (Red OR Green
+
+------------Searching------------
+
+----------------------------------------------------------------------------------------------------------------------------
+│Registration │Grade      │Make       │Model        │Year │NumSeats │Transmission │Fuel   │GPS │SunRoof │DailyRate │Colour │
+----------------------------------------------------------------------------------------------------------------------------
+│169FBE       │Economy    │Pontiac    │Fiero 2M4    │1985 │2        │Manual       │Petrol │-   │-       │48.8      │Black  │
+│993QAN       │Commercial │Mitsubishi │3000 GT VR-4 │1991 │2        │Manual       │Petrol │-   │-       │37.8      │Red    │
+│509XRK       │Commercial │Dodge      │Dakota       │2002 │4        │Manual       │Diesel │GPS │-       │45.5      │Blue   │
+│682GWJ       │Commercial │Audi       │A4           │1997 │5        │Manual       │Petrol │-   │-       │46.1      │Blue   │
+│519YUY       │Family     │Dodge      │Durango      │2006 │7        │Automatic    │Diesel │GPS │sunroof │46.8      │Blue   │
+│123ABD       │Commercial │Honda      │Odyssey      │2009 │7        │Automatic    │Petrol │-   │sunroof │123.2     │Red    │
+│123ABE       │Luxury     │Acura      │3.5 tl       │2008 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│321ABE       │Family     │Honda      │Civic        │1999 │4        │Manual       │Petrol │-   │-       │80        │Black  │
+│425UIO       │Luxury     │Pontiac    │Fiero 2m4    │1908 │4        │Manual       │Petrol │GPS │sunroof │120       │Black  │
+│642JAE       │Luxury     │Mercedes   │34-atl       │2017 │5        │Manual       │Petrol │-   │sunroof │120       │Green  │
+
+Infix Expression...
+( GPS OR SUNROOF ) AND ( RED OR GREEN
+
+Postfix Expression...
+GPS SUNROOF OR RED GREEN OR ( AND
+
+Search result:Invalid attribute (
+
+
+Please enter a number from the options below:
+
+1) Display Rentals
+2) Search Vehicles
+3) Rent Vehicle
+4) Return Vehicle
+
+>
+
+Please enter a number from the options below:
+
+1) Customer Management
+2) Fleet Management
+3) Rental Management
+
+>
+
+Press enter to save and exit. Press BACKSPACE to go back to main menu.
+
+PS C:\Users\brend\source\repos\MRRC\MRRC\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200604071111
+**********************

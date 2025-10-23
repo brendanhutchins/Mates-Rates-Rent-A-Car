@@ -1,0 +1,15 @@
+Registration,Grade,Make,Model,Year,NumSeats,Transmission,Fuel,GPS,SunRoof,DailyRate,Colour
+851VOJ,Economy,Pontiac,Fiero 2M4,1985,2,Manual,Petrol,False,False,37.1,Black
+169FBE,Economy,Pontiac,Fiero 2M4,1985,2,Manual,Petrol,False,False,48.8,Black
+602VVZ,Economy,Pontiac,Fiero 2M4,1987,2,Manual,Petrol,False,False,37.9,Red
+993QAN,Commercial,Mitsubishi,3000 GT VR-4,1991,2,Manual,Petrol,False,False,37.8,Red
+509XRK,Commercial,Dodge,Dakota,2002,4,Manual,Diesel,True,False,45.5,Blue
+471XBI,Luxury,Chevrolet,Tahoe,1996,8,Automatic,Petrol,True,True,38,Black
+682GWJ,Commercial,Audi,A4,1997,5,Manual,Petrol,False,False,46.1,Blue
+677UIA,Economy,Audi,S4,2004,5,Manual,Petrol,False,False,43.3,Blue
+519YUY,Family,Dodge,Durango,2006,7,Automatic,Diesel,True,True,46.8,Blue
+123ABD,Commercial,Honda,Odyssey,2009,7,Automatic,Petrol,False,True,123.2,Red
+123ABE,Luxury,Acura,3.5 tl,2008,4,Manual,Petrol,True,True,120,Black
+321ABE,Family,Honda,Civic,1999,4,Manual,Petrol,False,False,80,Black
+425UIO,Luxury,Pontiac,Fiero 2m4,1908,4,Manual,Petrol,True,True,120,Black
+642JAE,Luxury,Mercedes,34-atl,2017,5,Manual,Petrol,False,True,120,Green

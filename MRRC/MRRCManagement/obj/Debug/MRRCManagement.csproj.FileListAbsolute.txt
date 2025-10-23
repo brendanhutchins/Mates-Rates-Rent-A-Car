@@ -1,0 +1,11 @@
+C:\Users\brend\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.dll
+C:\Users\brend\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\brend\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\brend\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CoreCompileInputs.cache
+C:\Users\brend\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.dll
+C:\Users\brend\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+Z:\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.dll
+Z:\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+Z:\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+Z:\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.dll
+Z:\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
