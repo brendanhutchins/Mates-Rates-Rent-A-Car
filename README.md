@@ -6,3 +6,5 @@ Main parts of app
 - Customer Relationship Management (CRM) Solution: A CRM class that has ID system, reading and writing of data to a CSV file stored on the device, LINQ querying, and multiple cases of exception handling, one being the inability to delete customers while a vehicle is rented to them.
 - Fleet Inventory: This handles the vehicle inventory, rental status, and CSV read/write capabilities for recorded rentals and fleet adjustments.
 - Vehicle Search: Creation of a search engine that tokenizes user queries, converting them with the shunting-yard algorithm. It then evaluates the output against hash sets and returns the matches it finds back to the user.
+
+![alt text](https://github.com/brendanhutchins/Mates-Rates-Rent-A-Car/blob/main/MRRC/Documentation/Photo-Class-Structure.png "Class Structure Diagram")
