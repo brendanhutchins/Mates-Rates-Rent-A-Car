@@ -7,4 +7,6 @@ Main parts of app
 - Fleet Inventory: This handles the vehicle inventory, rental status, and CSV read/write capabilities for recorded rentals and fleet adjustments.
 - Vehicle Search: Creation of a search engine that tokenizes user queries, converting them with the shunting-yard algorithm. It then evaluates the output against hash sets and returns the matches it finds back to the user.
 
+For information on how to operate, look on the wiki page.
+
 ![alt text](https://github.com/brendanhutchins/Mates-Rates-Rent-A-Car/blob/main/MRRC/Documentation/Photo-Class-Structure.png "Class Structure Diagram")
